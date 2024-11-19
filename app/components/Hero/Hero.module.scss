@@ -1,0 +1,66 @@
+.containerTxt h2 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 277px;
+
+    animation: textanimation 1s ease-in-out;
+}
+
+.containerTxtWrapper {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+
+    animation: textanimation 1.2s ease-in-out;
+}
+
+.containerTxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+
+    animation: textanimation 1.5s ease-in-out;
+}
+
+.line {
+    background: #C3804D;
+    width: 127px;
+    height: 4px;
+
+    animation: textanimation 1.8s ease-in-out;
+}
+
+.containerTxtWrapper span {
+    color: #C3804D;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+
+    animation: textanimation 1.4s ease-in-out;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+@keyframes textanimation {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

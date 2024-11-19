@@ -1,0 +1,48 @@
+.navigation button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.carousel {
+    max-width: 912px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 16px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card {
+    background: #333;
+    border-radius: 8px;
+    text-align: center;
+    padding: 16px;
+    color: white;
+}
+
+
+.sliderContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.slider {
+    max-width: 912px;
+    width: 100%;
+}
+
+

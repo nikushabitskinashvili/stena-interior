@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerSocial {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+    cursor: pointer;
+}
+
+.headerLinks ul {
+    display: flex;
+    align-items: center;
+    gap: 54px;
+    list-style: none;
+}
+
+.headerLinks a {
+    color: #E5E7EB;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
